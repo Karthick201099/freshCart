@@ -192,7 +192,7 @@ const Home: React.FC = () => {
 
   return (
     <div className="lg:p-4 p-1 my-6">
-      <div className="bg-[url('./public/assets/slider-image-1.jpg')] bg-cover bg-center lg:h-64 h-44 w-full rounded-xl lg:pt-12 pt-4 lg:pl-8 pl-7">
+      <div className="bg-[url('../assets/slider-image-1.jpg')] bg-cover bg-center lg:h-64 h-44 w-full rounded-xl lg:pt-12 pt-4 lg:pl-8 pl-7">
         <h1 className="lg:text-[39px] text-3xl font-semibold">Welcome back! FreshCart</h1>
         <p className=" text-[15px] font-medium text-gray-600 pt-2 ">
           FreshCart is a simple & clean design for developers and designers.
