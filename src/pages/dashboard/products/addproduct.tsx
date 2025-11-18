@@ -14,7 +14,7 @@ const AddProduct = () => {
   const [description, setDescription] = useState('');
   const [inStock, setInStock] = useState<boolean>(true);
   const [status, setStatus] = useState<'active' | 'disabled'>('active');
-
+  console.log(images);
   const handleStatusChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setStatus(event.target.value as 'active' | 'disabled');
   };

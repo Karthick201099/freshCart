@@ -24,7 +24,7 @@ const Addcategory = () => {
       setImageURLs((prev) => [...prev, ...filesArray.map((file) => URL.createObjectURL(file))]);
     }
   };
-
+  console.log(images);
   const handleUploadClick = () => {
     document.getElementById('fileInput')?.click();
   };
